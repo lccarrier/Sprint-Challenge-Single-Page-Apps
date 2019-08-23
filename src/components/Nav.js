@@ -4,6 +4,7 @@ import styled from 'styled-components'
 
 const StyledDiv = styled.div`
     display: flex; 
+    margin-bottom: 10px;
 `
 
 const StyledNav = styled.div`
@@ -14,7 +15,7 @@ const StyledNav = styled.div`
 
 function Nav() {
     return (
-        <StyledDiv >
+        <StyledDiv>
             <NavLink to="/">Home</NavLink>
             <StyledNav />
             <NavLink to="/characters">Characters</NavLink>
@@ -23,7 +24,7 @@ function Nav() {
             <StyledNav />
             <NavLink to="/locations">Locations</NavLink>
             <StyledNav />
-        </StyledDiv >
+        </StyledDiv>
     )
 }
 
