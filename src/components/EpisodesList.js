@@ -28,7 +28,7 @@ export default function EpisodesList() {
         <EpisodeCard
           key={key}
           name={episode.name}
-          iardate={episode.air_date}
+          airdate={episode.air_date}
           episode={episode.episode}
         />
       ))}
